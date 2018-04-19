@@ -18,9 +18,13 @@
 }
 
 .social{
+    position: absolute;
+    right: 50px;
+    top: 118px;
+    text-align: center;
     float: left;
     width: 20%;
-    margin:100px auto;
+    margin: 0px auto;
     background: #a9a8ad;
     border: solid;
     border-width: 2px;
@@ -28,13 +32,20 @@
 }
 
 .socialImg{
-    width: 100px;
-    height: 100px;
+    padding: 10px 0px;
+    width: 80px;
+    height: 80px;
+}
+
+contactC{
+    position: relative;
 }
 
 .contactForm{
+    position: relative;
+    left: 50px;
     margin: 0px auto;
-    float: left
+    float: left;
 }
 
 h1, h2, h3, h4, h5, h6, h7{
@@ -60,9 +71,125 @@ a{
     color:#1b4fa2;
 }
 
+.portImg{
+    margin: 0px auto;
+    width:100%;
+}
+/* continue by adding heigth width and position for all test images. Then add position and left, right, top bottom for all text */
+
+.test{
+    padding: 14px 7px;
+}
+
+.test1{
+    float: left;
+    width:200px;
+    height:200px;
+    position: relative;
+}
+
+.test2{
+    float: left;
+    width:200px;
+    height:200px;
+    position: relative;
+}
+
+.test3{
+    float: left;
+    width:200px;
+    height:200px;
+    position: relative;
+}
+
+.test4{
+    float: left;
+    width:200px;
+    height:200px;
+    position: relative;
+}
+
+.test5{
+    float: left;
+    width:200px;
+    height:200px;
+    position: relative;
+}
+
+.test6{
+    float: left;
+    width:200px;
+    height:200px;
+    position: relative;
+}
+
+.pImg{
+    float: left;
+}
+
+.pImg1{
+    position: relative;
+}
+
+.pImg2{
+    position: relative;
+}
+
+.pImg3{
+    position: relative;
+}
+
+.pImg4{
+    position: relative;
+}
+
+.pImg5{
+    position: relative;
+}
+
+.pImg6{
+    position: relative;
+}
+
+.imgP1{
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+}
+
+.imgP2{
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+}
+
+.imgP3{
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+}
+
+.imgP4{
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+}
+
+.imgP5{
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+}
+
+.imgP6{
+    position: absolute;
+    bottom: 0px;
+    left: 65px;
+}
+
 .aboutMe{
     width: 70%;
-    margin:100px auto;
+    margin:50px auto;
     background: #a9a8ad;
     border: solid;
     border-width: 2px;
@@ -75,11 +202,6 @@ hr {
     border-style: solid;
     border-width: 1px;
     border-color: #000;
-}
-
-#aboutMe{
-    width:98%;
-    margin:0 auto;
 }
 
 #image{
@@ -125,7 +247,7 @@ header{
     border-color: #000000;
 }
 
-img{
+.portImg{
     width: 65%;
     height: 65%;
 }
