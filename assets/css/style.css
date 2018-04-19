@@ -3,6 +3,40 @@
     margin: auto 0;
 }
 
+.input{
+    width:100%;
+}
+
+.message{
+    width:100%;
+    height: 200px;
+}
+
+.form{
+    margin: 10px auto;
+    width: 85%;
+}
+
+.social{
+    float: left;
+    width: 20%;
+    margin:100px auto;
+    background: #a9a8ad;
+    border: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+
+.socialImg{
+    width: 100px;
+    height: 100px;
+}
+
+.contactForm{
+    margin: 0px auto;
+    float: left
+}
+
 h1, h2, h3, h4, h5, h6, h7{
     font-family: 'Georgia', Times, "Times New Roman", serif;
 }
